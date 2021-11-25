@@ -1,131 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@500&family=Satisfy&display=swap');
 *{
-    margin: 0;
     padding: 0;
+    margin: 0;
     box-sizing: border-box;
-    font-family: 'Crimson Pro', serif;
 }
-header{
+.header{
     width: 100%;
-    height: 95vh;
-    background: rgba(52, 48, 77, 0.867);
-}
-.head{
+    height: 100vh;
+    background-color: darkslategray;
     padding: 0 8.5%;
-    position: relative;
+}
+nav{
     display: flex;
     justify-content: space-between;
-
 }
-/* start main*/
-.main{
-    
-    padding: 0 8.5%;
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
-}
-.userimg{
-    width: 350px;
-}
-.content h1{
-    color: chartreuse;
-    font-size: 68px;
-}
-.content h3{
-    color: rgb(255, 255, 255);
-    font-size: 20px;
-    font-family: 'Satisfy', cursive;
-}
-.content h3 span{
-    color: magenta;
-    font-size: 30px;
-    font-weight: 700;
-}
-.userimg{
-    display: flex;
-    align-items: flex-end;
-}
-/* end main*/
-.thumbnail{
-    text-align: center;
-}
-.nav-items{
-    display: flex;
-    padding-top: 90px;
-}
-.nav ul li{
-    list-style: none;
-    padding-left: 20px;
-}
-.nav ul li a{
-    text-decoration: none;
-    color: aliceblue;
-    font-size: 20px;
-}
-.nav ul li a:hover{
-    color: mediumorchid;
-}
-.login-sign{
-    display: flex;
-    padding-top: 80px;
-}
-.login{
-    padding-right: 20px;
-}
-.login :hover{
-    background-color: mediumvioletred;
-    color: whitesmoke;
-    font-size: 20px;
-}
-.sign :hover{
-    background-color: mediumvioletred;
-    color: whitesmoke;
-    font-size: 20px;
-}
-.text-sign{
-    text-decoration: none;
-    color: black;
-    
-}
-button{
-    background-color: chartreuse;
-    border: none;
-    padding: 10px 20px;
-    font-size: 20px;
-    border-radius: 25px;
-}
-
-/* about */
-.about{
-    padding: 120px 8.5%;
-    background-color: mediumorchid;
-    display: flex;
-    position: relative;
-    justify-content: center;
-    align-items: center;
-}
-.about h1{
-    font-size: 60px;
-    font-weight: bold;
-    color: whitesmoke;
-    font-family: 'Lobster', cursive;
-}
-.about p{
-    color: rgb(255, 255, 255);
-    text-align: justify;
-    padding-right: 45px;
-    font-size: 22px;
-    font-family: 'Satisfy', cursive;
-}
-.aboutimg{
-    width: 550px;
-    height: 500px;
-    border-radius: 15px;
-    box-shadow: 10px 10px 50px rgb(0, 0, 0);
-}
-/* about */
